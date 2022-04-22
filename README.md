@@ -7,3 +7,9 @@ conda install -c bioconda canu
 
 INSTALLING: SPAdes de novo genome assembler ##
 conda install -c bioconda spades
+
+
+https://en.wikipedia.org/wiki/De_novo_sequence_assemblers
+https://canu.readthedocs.io/en/latest/quick-start.html
+https://canu.readthedocs.io/en/latest/tutorial.html#tutorial
+https://anaconda.org/bioconda/canu
