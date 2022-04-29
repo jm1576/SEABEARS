@@ -14,7 +14,20 @@ conda install -c bioconda spades
 
 downloading files: 
 
+## Downloading reads for assembly programs
+##Forward reads
+curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2
+##Reverse reads
+curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2
 
+## Converting bz2 to gz for assembly program use
+##Forward reads
+bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz
+##Reverse reads
+bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz
+
+## Running Spades program on reads
+spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate
 
 https://en.wikipedia.org/wiki/De_novo_sequence_assemblers
 https://canu.readthedocs.io/en/latest/quick-start.html
