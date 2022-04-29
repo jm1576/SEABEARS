@@ -6,12 +6,6 @@ For this project, we are comparing the genome assembly of _Hypsibius dujardini_ 
 
 ## METHODS
 
-INSTALLING: Canu de novo genome assembler ##
-conda install -c bioconda canu
-
-INSTALLING: SPAdes de novo genome assembler ##
-conda install -c bioconda spades
-
 downloading files: 
 
 
@@ -21,6 +15,13 @@ https://canu.readthedocs.io/en/latest/tutorial.html#tutorial
 https://anaconda.org/bioconda/canu
 
 #### COMMANDS WE USED
+
+##### Installing assembly programs
+###### Canu de novo genome assembler
+`conda install -c bioconda canu`
+###### SPAdes de novo genome assembler
+`conda install -c bioconda spades`
+
 ##### Downloading reads for assembly programs
 ###### Forward reads
 `curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2>`
