@@ -18,3 +18,5 @@ https://canu.readthedocs.io/en/latest/tutorial.html#tutorial
 https://anaconda.org/bioconda/canu
 
 #### COMMANDS WE USED
+
+## FINDINGS
