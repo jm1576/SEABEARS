@@ -6,15 +6,7 @@ For this project, we are comparing the genome assembly of _Hypsibius dujardini_ 
 
 ## METHODS
 
-downloading files: 
-
-
-https://en.wikipedia.org/wiki/De_novo_sequence_assemblers
-https://canu.readthedocs.io/en/latest/quick-start.html
-https://canu.readthedocs.io/en/latest/tutorial.html#tutorial
-https://anaconda.org/bioconda/canu
-
-#### COMMANDS WE USED
+### COMMANDS WE USED
 
 ##### Installing assembly programs
 ###### Canu de novo genome assembler
@@ -37,3 +29,12 @@ https://anaconda.org/bioconda/canu
 ##### Running Spades program on reads
 `spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate`
 ## FINDINGS
+
+
+downloading files: 
+
+
+https://en.wikipedia.org/wiki/De_novo_sequence_assemblers
+https://canu.readthedocs.io/en/latest/quick-start.html
+https://canu.readthedocs.io/en/latest/tutorial.html#tutorial
+https://anaconda.org/bioconda/canu
