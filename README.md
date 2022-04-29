@@ -23,16 +23,16 @@ https://anaconda.org/bioconda/canu
 #### COMMANDS WE USED
 ##### Downloading reads for assembly programs
 ###### Forward reads
-<curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2>
+`curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2>`
 ###### Reverse reads
-curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2
+`curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2`
 
 ##### Converting bz2 to gz for assembly program use
 ###### Forward reads
-bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz
+`bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz`
 ###### Reverse reads
-bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz
+`bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz`
 
 ##### Running Spades program on reads
-spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate
+`spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate`
 ## FINDINGS
