@@ -2,14 +2,14 @@
 
 
 ## BACKGROUND
-For this project, we are comparing the genome assembly of _Hypsibius dujardini_ (tardigrade, aka sea bears) between two different assembling programs through conda. We are following a previous study (SOURCE) which used SPAdes as the de novo genome assembler. The assembler we will be comparing to SPAdes is Canu. SPAdes is a de novo genome assembler most often used for small genomes and takes paired-ends reads in FASTQ formatting.
+For this project, we are comparing the genome assembly of _Hypsibius dujardini_ (tardigrade, aka sea bears) between two different assembling programs through conda. We are following a previous study which used SPAdes as the de novo genome assembler. The assembler we will be comparing to SPAdes is Canu. SPAdes is a de novo genome assembler most often used for small genomes and takes paired-ends reads in FASTQ formatting. Canu is generally used for assembling PacBio/Nanopore short reads, but can sometimes be used for assembling long reads.
 
 ### ORGANISM BACKGROUND
-⋅⋅⋅Tardigrades (a.k.a. water bears or moss piglets)
-⋅⋅⋅Invertebrates belonging to the phylum Tardigrada
-⋅⋅⋅Close relative to arthropods
-⋅⋅⋅Large number of genera and species
-⋅⋅⋅Variety of habitats: damp moss, sand, fresh or salt water
+...Tardigrades (a.k.a. water bears or moss piglets)
+...Invertebrates belonging to the phylum Tardigrada
+...Close relative to arthropods
+...Large number of genera and species
+...Variety of habitats: damp moss, sand, fresh or salt water
 !(https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
 
 ## METHODS
@@ -39,22 +39,6 @@ For this project, we are comparing the genome assembly of _Hypsibius dujardini_ 
 
 ##### Running Canu program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
-###### error message
--- ERROR:  Read coverage (0) lower than allowed.
--- ERROR:    minInputCoverage  = 10
--- ERROR:
--- ERROR:  This could be caused by an incorrect genomeSize.
--- ERROR:
--- ERROR:  You can force Canu to continue by decreasing parameter
--- ERROR:  minInputCoverage.  Be warned that the quality of corrected
--- ERROR:  reads and/or contiguity of contigs will be poor.
---
-
-ABORT:
-ABORT: canu 2.2
-ABORT: Don't panic, but a mostly harmless error occurred and Canu stopped.
-ABORT: Try restarting.  If that doesn't work, ask for help.
-
 
 
 ## FINDINGS
