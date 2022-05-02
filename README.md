@@ -62,7 +62,7 @@ SPAdes is not allowing two fastq files with different lengths to be run together
 - Assembling the forward and reverse reads individually
 
 ### Canu
-Using the forward read alone in Canu was not possible. Trouble shooting options:
+Using the forward read alone in Canu yielded no results. Trouble shooting options:
 
 - retrying forward read with different combinations of options/different command
 - Downloading a new program entirely--some options we have looked into are PANDAseq and Velvet (Velvet seems more promising)
