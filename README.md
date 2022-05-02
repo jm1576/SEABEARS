@@ -40,20 +40,20 @@ Variety of habitats: damp moss, sand, fresh or salt water
 ##### Running Canu program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
 ###### error message
-`-- ERROR:  Read coverage (0) lower than allowed.
--- ERROR:    minInputCoverage  = 10
--- ERROR:
--- ERROR:  This could be caused by an incorrect genomeSize.
--- ERROR:
--- ERROR:  You can force Canu to continue by decreasing parameter
--- ERROR:  minInputCoverage.  Be warned that the quality of corrected
--- ERROR:  reads and/or contiguity of contigs will be poor.
---
+`-- ERROR:  Read coverage (0) lower than allowed.`
+`-- ERROR:    minInputCoverage  = 10`
+`-- ERROR:`
+`-- ERROR:  This could be caused by an incorrect genomeSize.`
+`-- ERROR:`
+`-- ERROR:  You can force Canu to continue by decreasing parameter`
+`-- ERROR:  minInputCoverage.  Be warned that the quality of corrected`
+`-- ERROR:  reads and/or contiguity of contigs will be poor.`
+`--`
 
-ABORT:
-ABORT: canu 2.2
-ABORT: Don't panic, but a mostly harmless error occurred and Canu stopped.
-ABORT: Try restarting.  If that doesn't work, ask for help.`
+`ABORT:`
+`ABORT: canu 2.2`
+`ABORT: Don't panic, but a mostly harmless error occurred and Canu stopped.`
+`ABORT: Try restarting.  If that doesn't work, ask for help.`
 
 
 
