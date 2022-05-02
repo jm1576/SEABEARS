@@ -47,7 +47,7 @@ First, we will be using two separate _De novo_ genome assemblers called Canu and
 `bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz`
 
 ##### Running Spades program on reads
-`spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate`
+`spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdesoutput --isolate`
 
 ##### Running Canu program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
