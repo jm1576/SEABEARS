@@ -5,7 +5,7 @@
 For this project, we are comparing the genome assembly of _Hypsibius dujardini_ (tardigrade, aka sea bears) between two different assembling programs through conda. We are following a previous study which used SPAdes as the de novo genome assembler. The assembler we will be comparing to SPAdes is Canu. SPAdes is a de novo genome assembler most often used for small genomes and takes paired-ends reads in FASTQ formatting. Canu is generally used for assembling PacBio/Nanopore short reads, but can sometimes be used for assembling long reads.
 
 ### ORGANISM BACKGROUND
-...Tardigrades (a.k.a. water bears or moss piglets)
+..*Tardigrades (a.k.a. water bears or moss piglets)
 ...Invertebrates belonging to the phylum Tardigrada
 ...Close relative to arthropods
 ...Large number of genera and species
