@@ -53,7 +53,13 @@ Variety of habitats: damp moss, sand, fresh or salt water
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
 
 
-## FINDINGS
+## Troubleshooting
+### SPAdes
+SPAdes is not allowing two fastq files with different lengths to be run together on the program. The next ideas will be:
+
+- Trimming the forward read (which is longer)
+- Finding a way to override this error
+- Assembling the forward and reverse reads individually
 
 
 downloading files: 
