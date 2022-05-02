@@ -10,8 +10,7 @@ Invertebrates belonging to the phylum Tardigrada
 Close relative to arthropods
 Large number of genera and species
 Variety of habitats: damp moss, sand, fresh or salt water
-![alt text](https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
-![alt text](https://static.wikia.nocookie.net/non-aliencreatures/images/1/12/SeaBear.png/revision/latest?cb=20140923150713)
+!(https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
 
 ## METHODS
 
@@ -38,8 +37,26 @@ Variety of habitats: damp moss, sand, fresh or salt water
 ##### Running Spades program on reads
 `spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdespacbio.fastq.gz --isolate`
 
-## FINDINGS
+##### Running Canu program on reads
+`canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
+###### error message 
 
+
+## FINDINGS
+-- ERROR:  Read coverage (0) lower than allowed.
+-- ERROR:    minInputCoverage  = 10
+-- ERROR:
+-- ERROR:  This could be caused by an incorrect genomeSize.
+-- ERROR:
+-- ERROR:  You can force Canu to continue by decreasing parameter
+-- ERROR:  minInputCoverage.  Be warned that the quality of corrected
+-- ERROR:  reads and/or contiguity of contigs will be poor.
+--
+
+ABORT:
+ABORT: canu 2.2
+ABORT: Don't panic, but a mostly harmless error occurred and Canu stopped.
+ABORT: Try restarting.  If that doesn't work, ask for help.
 
 downloading files: 
 
