@@ -25,8 +25,10 @@ Variety of habitats: damp moss, sand, fresh or salt water
 
 
 ## METHODS
+### General Pipeline
+First, we will be using two separate _De novo_ genome assemblers called Canu and SPAdes. We are inputting the same Tardigrade forward and reverse reads into each system. Once we have both genome assemblies, we will be using the genome assembly evaluation tool (QUAST) to determine the quality of each assembly from the two separate pipelines.  
 
-### COMMANDS WE USED 
+### Commands we used
 
 ##### Installing assembly programs
 ###### Canu de novo genome assembler
@@ -35,15 +37,13 @@ Variety of habitats: damp moss, sand, fresh or salt water
 `conda install -c bioconda spades`
 
 ##### Downloading reads for assembly programs
-###### Forward reads
-`curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2>`
-###### Reverse reads
+`curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2`
+
 `curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2`
 
 ##### Converting bz2 to gz for assembly program use
-###### Forward reads
 `bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz`
-###### Reverse reads
+
 `bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz`
 
 ##### Running Spades program on reads
@@ -64,7 +64,7 @@ SPAdes is not allowing two fastq files with different lengths to be run together
 ### Canu
 Using the forward read alone in Canu yielded no results. Trouble shooting options:
 
-- retrying forward read with different combinations of options/different command
+- Retrying forward read with different combinations of options/different command
 - Downloading a new program entirely--some options we have looked into are PANDAseq and Velvet (Velvet seems more promising)
 
 
