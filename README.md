@@ -39,10 +39,7 @@ Variety of habitats: damp moss, sand, fresh or salt water
 
 ##### Running Canu program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
-###### error message 
-
-
-## FINDINGS
+###### error message
 -- ERROR:  Read coverage (0) lower than allowed.
 -- ERROR:    minInputCoverage  = 10
 -- ERROR:
@@ -57,6 +54,11 @@ ABORT:
 ABORT: canu 2.2
 ABORT: Don't panic, but a mostly harmless error occurred and Canu stopped.
 ABORT: Try restarting.  If that doesn't work, ask for help.
+
+
+
+## FINDINGS
+
 
 downloading files: 
 
