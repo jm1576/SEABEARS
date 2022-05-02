@@ -10,7 +10,7 @@ For this project, we are comparing the genome assembly of _Hypsibius dujardini_ 
 ..* Close relative to arthropods
 ..* Large number of genera and species
 ..* Variety of habitats: damp moss, sand, fresh or salt water
-!(https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
+![alt text](https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
 
 ## METHODS
 
