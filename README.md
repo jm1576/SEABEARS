@@ -2,7 +2,7 @@
 
 
 ## BACKGROUND
-For this project, we are comparing the genome assembly of _Hypsibius dujardini_ (tardigrade, aka sea bears) between two different assembling programs through conda. We are following a previous study which used SPAdes as the de novo genome assembler. The assembler we will be comparing to SPAdes is Canu. SPAdes is a de novo genome assembler most often used for small genomes and takes paired-ends reads in FASTQ formatting. Canu is generally used for assembling PacBio/Nanopore short reads, but can sometimes be used for assembling long reads. We originally found the programs before finding the reads ( it was extremely troubling to find usable reads), so we were going to try using these programs before trying new ones. 
+For this project, we are comparing the genome assembly of _Hypsibius dujardini_ (tardigrade, aka sea bears) between two different assembling programs through conda. We are following a previous study which used SPAdes as the de novo genome assembler. The assembler we will be comparing to SPAdes is Velvet. Both SPAdes and Velvet are de novo genome assemblers most often used for small genomes and takes paired-ends reads in FASTQ formatting. Velvet was inititally released in 2008, while SPAdes is much newer, having been fully released in 2021. 
 
 ### ORGANISM BACKGROUND
 Tardigrades (a.k.a. water bears or moss piglets)
@@ -49,7 +49,7 @@ First, we will be using two separate _De novo_ genome assemblers called Canu and
 ##### Running Spades program on reads
 `spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdesoutput --isolate`
 
-##### Running Canu program on reads
+##### Running Velvet program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
 
 
@@ -61,7 +61,7 @@ SPAdes is not allowing two fastq files with different lengths to be run together
 - Finding a way to override this error
 - Assembling the forward and reverse reads individually
 
-### Canu
+### Velvet
 Using the forward read alone in Canu yielded no results. Trouble shooting options:
 
 - Retrying forward read with different combinations of options/different command
