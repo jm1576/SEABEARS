@@ -52,6 +52,10 @@ First, we will be using two separate _De novo_ genome assemblers called Canu and
 ##### Running Velvet program on reads
 `canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
 
+### QUAST
+
+
+
 
 ## Troubleshooting
 ### SPAdes
