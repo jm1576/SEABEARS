@@ -137,13 +137,12 @@ quast.py -o quastoutput2 contigs.fa
 #### General Quality Assesment produced by QUAST based off of reads produced using Velvet genome allignment
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
-### Comparison of GC% and genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
+#### Comparison of GC% and genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
 
 |      | Reference 1  |  Reference 2  | SPAdes |  Velvet |
 | :---: | :---: | :---: | :---: | :---: |
 | GC% | 45.3%  | 45.3%  | 46.9% | 45.1%  | 45.7%  |
 | genome size(Mb) | 182.16  | 252.54 |  1164.47 | 217.49  | 
-
 
 Reference 1:
 https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=266552
@@ -152,8 +151,7 @@ Reference 2:
 https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=259056
 
 ## CONCLUSION
-Bioinformatics genome allignment technology has 
-SPAdes
+Bioinformatics genome allignment technology has progressed significantly in the past several years however the usability of these assemblers varies and a high computing power is often required to successfully navigate an assembler. The files and downloads required to run these programs also vary which again influences user's ability to utilize the technology. Several of the outputs we found were extremely large, up to >40 GB which is entirely unreasonable for a program being run on one's own personal computer. The enormity of the outputs caused a large portion of the troubleshooting required for the completion of this project as well as the fact that in order to run the programs additional space was required for downloads which took away from teh space available for the output files.
 
 
 
