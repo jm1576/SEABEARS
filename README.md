@@ -18,7 +18,7 @@ Tardigrades (a.k.a. water bears or moss piglets)
 
 ## METHODS
 ### General Pipeline
-First, we will be using two separate _De novo_ genome assemblers called Canu and SPAdes. We are inputting the same Tardigrade forward and reverse reads into each system. Once we have both genome assemblies, we will be using the genome assembly evaluation tool (QUAST) to determine the quality of each assembly from the two separate pipelines.  
+First, we will be using two separate _De novo_ genome assemblers called Velvet and SPAdes. We are inputting the same Tardigrade forward and reverse reads into each system. Once we have both genome assemblies, we will be using the genome assembly evaluation tool (QUAST) to determine the quality of each assembly from the two separate pipelines.  
 
 ```mermaid
 graph TD;
