@@ -135,12 +135,6 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168662161-38f50146-f491-49e0-b501-ebf74e91edb4.png)
 
 ####
-![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168662164-bd484a06-8733-4c65-9d38-7d9ddfc5a05b.png)
-
-####
-![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168662165-26514a8b-32f5-4732-b1c4-de88269dac6d.png)
-
-####
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
 ## DISCUSSION
