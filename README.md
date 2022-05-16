@@ -99,6 +99,7 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168637967-a38b535a-1d6b-4ebc-8102-ae113146a07f.png)
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168637968-8863790a-28d0-463d-859d-adb3f4085cd4.png)
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168637970-c67ca16f-1090-4c96-ba91-56667be51e69.png)
+![Screen Shot 2022-05-16 at 3 00 25 PM](https://user-images.githubusercontent.com/103778088/168663474-dde09df1-5d9a-4b98-bc9d-42f52541b653.png)
 
 ### Velvet
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168662158-4090ac6a-72ad-4c41-ae8c-8902b2f86b69.png)
@@ -107,6 +108,7 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168662164-bd484a06-8733-4c65-9d38-7d9ddfc5a05b.png)
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168662165-26514a8b-32f5-4732-b1c4-de88269dac6d.png)
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168662167-b270e0db-0dfc-47ee-a52f-84fc90c0ec6f.png)
+![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
 ## CONCLUSION
 ### SPAdes
