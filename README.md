@@ -90,6 +90,9 @@ quast.py -o quastoutput contigs.fasta
 ```
 
 ## RESULTS
+
+
+## CONCLUSION
 ### SPAdes
 SPAdes is not allowing two fastq files with different lengths to be run together on the program. The next ideas will be:
 
@@ -105,7 +108,6 @@ Using the forward read alone in Canu yielded no results. Trouble shooting option
 
 
 downloading files: 
-
 
 https://en.wikipedia.org/wiki/De_novo_sequence_assemblers
 https://canu.readthedocs.io/en/latest/quick-start.html
