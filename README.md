@@ -56,7 +56,7 @@ spades.py -1 forwardreads.trimmed.fastq.gz -2 reversereads.trimmed.fastq.gz -o S
 #### Velvet
 ```
 ## Downloading Velvet de novo genome assembler
-
+conda install -c bioconda velvet
 
 ## Downloading reads for assembly programs
 curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2
@@ -73,6 +73,8 @@ trimmomatic PE forwardreads.fastq.gz reversereads.fastq.gz \
     SLIDINGWINDOW:4:20 -phred33
     
 ## Running Velvet program on reads
+velveth velvet_assembly 51 -fastq -longPaired -separate forwardreads.trimmed.fastq.gz reversereads.trimmed.fastq.gz
+velvetg velvet_assembly/ -min_contig_length 200
 
 ```
 
@@ -103,17 +105,10 @@ quast.py -o quastoutput contigs.fasta
 
 ## CONCLUSION
 ### SPAdes
-SPAdes is not allowing two fastq files with different lengths to be run together on the program. The next ideas will be:
 
-- Trimming the forward read (which is longer)
-- Finding a way to override this error
-- Assembling the forward and reverse reads individually
 
 ### Velvet
-Using the forward read alone in Canu yielded no results. Trouble shooting options:
 
-- Retrying forward read with different combinations of options/different command
-- Downloading a new program entirely--some options we have looked into are PANDAseq and Velvet (Velvet seems more promising)
 
 
 downloading files: 
