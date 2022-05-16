@@ -134,10 +134,16 @@ quast.py -o quastoutput2 contigs.fa
 #### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using Velvet genome allignment
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168662158-4090ac6a-72ad-4c41-ae8c-8902b2f86b69.png)
 
-####  General Quality Assesment produced by QUAST based off of reads produced using Velvet genome allignment
+#### General Quality Assesment produced by QUAST based off of reads produced using Velvet genome allignment
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
 ## DISCUSSION
+
+### Comparison of GC content
+
+| Reference  | SPAdes |  Velvet |
+| ------------- | ------------- | ------------- |
+| 45.3%  | 45.1%  | 45.7%  |
 
 ## CONCLUSION
 Bioinformatics genome allignment technology has 
