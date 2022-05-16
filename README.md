@@ -6,18 +6,10 @@ For this project, we are comparing the genome assembly of _Hypsibius dujardini_ 
 
 ### ORGANISM BACKGROUND
 Tardigrades (a.k.a. water bears or moss piglets)
-
-
-Invertebrates belonging to the phylum Tardigrada
-
-
-Close relative to arthropods
-
-
-Large number of genera and species
-
-
-Variety of habitats: damp moss, sand, fresh or salt water
+- Invertebrates belonging to the phylum Tardigrada
+- Close relative to arthropods
+- Large number of genera and species
+- Variety of habitats: damp moss, sand, fresh or salt water
 
 
 ![alt text](https://i.natgeofe.com/n/7d80b867-3977-4f36-8d33-b64ad03431d9/01-tardigrades-sciencesource_ss2437867.jpg)
@@ -28,36 +20,76 @@ Variety of habitats: damp moss, sand, fresh or salt water
 ### General Pipeline
 First, we will be using two separate _De novo_ genome assemblers called Canu and SPAdes. We are inputting the same Tardigrade forward and reverse reads into each system. Once we have both genome assemblies, we will be using the genome assembly evaluation tool (QUAST) to determine the quality of each assembly from the two separate pipelines.  
 
+```mermaid
+graph TD;
+    id1(Tardigrade FASTQs from Illumina) --> id2(SPAdes genome assembler);
+    id1(Tardigrade FASTQs from Illumina) --> id3(Velvet genome assembler);
+    id2(SPAdes genome assembler) --> id4(Genome Assembly Evaluation Tool QUAST);
+    id3(Velvet genome assembler) --> id4(Genome Assembly Evaluation Tool QUAST);
+    
+```
 ### Commands we used
 
-##### Installing assembly programs
-###### Canu de novo genome assembler
-`conda install -c bioconda canu`
-###### SPAdes de novo genome assembler
-`conda install -c bioconda spades`
+#### SPAdes
+```
+## Downloading SPAdes de novo genome assembler
+conda install -c bioconda spades
 
-##### Downloading reads for assembly programs
-`curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2`
+## Downloading reads for assembly programs
+curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2
+curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2
 
-`curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2`
+## Converting bz2 to gz for assembly program use
+bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz
+bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz
 
-##### Converting bz2 to gz for assembly program use
-`bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz`
+## Trim reads for program
+trimmomatic PE forwardreads.fastq.gz reversereads.fastq.gz \
+    forwardreads.trimmed.fastq.gz forwardreadsun.trimmed.fastq.gz \
+    reversereads.trimmed.fastq.gz reversereadsun.trimmed.fastq.gz \
+    SLIDINGWINDOW:4:20 -phred33
+    
+## Running SPAdes program on reads
+spades.py -1 forwardreads.trimmed.fastq.gz -2 reversereads.trimmed.fastq.gz -o SPAdesoutput --isolate
 
-`bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz`
+```
+#### Velvet
+```
+## Downloading Velvet de novo genome assembler
 
-##### Running Spades program on reads
-`spades.py -1 forwardreads.fastq.gz -2 reversereads.fastq.gz -o SPAdesoutput --isolate`
 
-##### Running Velvet program on reads
-`canu -p canu -d canu_assembly genomeSize=245m -pacbio-raw forwardreads.fastq.gz`
+## Downloading reads for assembly programs
+curl -L -o forwardreads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_1.fastq.bz2
+curl -L -o reversereads.fastq.bz2 https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA004/DRA004455/DRX049724/DRR055040_2.fastq.bz2
+
+## Converting bz2 to gz for assembly program use
+bzcat forwardreads.fastq.bz2 | gzip -c >forwardreads.fastq.gz
+bzcat reversereads.fastq.bz2 | gzip -c >reversereads.fastq.gz
+
+## Trim reads for program
+trimmomatic PE forwardreads.fastq.gz reversereads.fastq.gz \
+    forwardreads.trimmed.fastq.gz forwardreadsun.trimmed.fastq.gz \
+    reversereads.trimmed.fastq.gz reversereadsun.trimmed.fastq.gz \
+    SLIDINGWINDOW:4:20 -phred33
+    
+## Running Velvet program on reads
+
+```
 
 ### QUAST
+```
+## Installing environment for QUAST
+conda create -n quast-env python=3.6
+conda activate quast-env
 
+## Running QUAST on SPAdes output
+quast.py -o quastoutput contigs.fasta
 
+## Running QUAST on Velvet output
 
+```
 
-## Troubleshooting
+## RESULTS
 ### SPAdes
 SPAdes is not allowing two fastq files with different lengths to be run together on the program. The next ideas will be:
 
