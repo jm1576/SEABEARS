@@ -93,14 +93,14 @@ quast.py -o quastoutput2 contigs.fa
 
 ## RESULTS
 ### SPAdes
+#### Contigs coverage histogram produced after running QUAST on the gnemome allignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168637962-8166970a-97db-44b4-8035-37359151517f.png)
-## Contigs coverage histogram produced after running QUAST on the gnemome allignment produced using SPAdes
 
+#### Frequency of differnet contig sizes after running QUAST on the gnemome allignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168637964-932091fe-4b93-4b39-a1aa-684dd4d7a98d.png)
-## Frequency of differnet contig sizes after running QUAST on the gnemome allignment produced using SPAdes
 
+#### GC content histogram for contigs produced using SPAdes genome allignment
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168637966-8f12e969-602e-423d-991b-f4de1acef980.png)
-## GC content histogram for contigs produced using SPAdes genome allignment
 
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168637967-a38b535a-1d6b-4ebc-8102-ae113146a07f.png)
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168637968-8863790a-28d0-463d-859d-adb3f4085cd4.png)
