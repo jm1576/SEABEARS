@@ -151,7 +151,7 @@ Reference 2:
 https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=259056
 
 ## CONCLUSION
-Bioinformatics genome allignment technology has progressed significantly in the past several years however the usability of these assemblers varies and a high computing power is often required to successfully navigate an assembler. The files and downloads required to run these programs also vary which again influences user's ability to utilize the technology. Several of the outputs we found were extremely large, up to >40 GB which is entirely unreasonable for a program being run on one's own personal computer. The enormity of the outputs caused a large portion of the troubleshooting required for the completion of this project as well as the fact that in order to run the programs additional space was required for downloads which took away from teh space available for the output files.
+Bioinformatics genome allignment technology has progressed significantly in the past several years however the usability of these assemblers varies and a high computing power is often required to successfully navigate an assembler. The files and downloads required to run these programs also vary which again influences user's ability to utilize the technology. Several of the outputs we found were extremely large, up to >40 GB which is entirely unreasonable for a program being run on one's own personal computer. The enormity of the outputs caused a large portion of the troubleshooting required for the completion of this project as well as the fact that in order to run the programs additional space was required for downloads. Inadvertently, this took away from teh space available for the output files.
 
 
 
