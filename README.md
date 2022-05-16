@@ -151,6 +151,11 @@ quast.py -o quastoutput2 contigs.fa
 | :---: | :---: | :---: | :---: |
 | 182.16  | 252.54 |  1164.47 | 217.49  | 
 
+Reference 1:
+https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=266552
+Reference 2:
+https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=259056
+
 ## CONCLUSION
 Bioinformatics genome allignment technology has 
 SPAdes
