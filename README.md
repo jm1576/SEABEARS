@@ -139,11 +139,17 @@ quast.py -o quastoutput2 contigs.fa
 
 ## DISCUSSION
 
-### Comparison of GC content
+### Comparison of GC% found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
 
 | Reference 1  |  Reference 2  | SPAdes |  Velvet |
 | :---: | :---: | :---: | :---: |
 | 45.3%  | 46.9% | 45.1%  | 45.7%  |
+
+### Comparison of genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
+
+| Reference 1  |  Reference 2  | SPAdes |  Velvet |
+| :---: | :---: | :---: | :---: |
+| 182.16  | 252.54 |  1164.47 | 217.49  | 
 
 ## CONCLUSION
 Bioinformatics genome allignment technology has 
