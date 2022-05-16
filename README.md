@@ -101,7 +101,12 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168637970-c67ca16f-1090-4c96-ba91-56667be51e69.png)
 
 ### Velvet
-
+![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168662158-4090ac6a-72ad-4c41-ae8c-8902b2f86b69.png)
+![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168662159-9cb28561-db7d-437a-a408-61a02c7dfc60.png)
+![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168662161-38f50146-f491-49e0-b501-ebf74e91edb4.png)
+![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168662164-bd484a06-8733-4c65-9d38-7d9ddfc5a05b.png)
+![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168662165-26514a8b-32f5-4732-b1c4-de88269dac6d.png)
+![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168662167-b270e0db-0dfc-47ee-a52f-84fc90c0ec6f.png)
 
 ## CONCLUSION
 ### SPAdes
