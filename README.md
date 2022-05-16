@@ -96,24 +96,44 @@ quast.py -o quastoutput2 contigs.fa
 #### Contigs coverage histogram produced after running QUAST on the gnemome allignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168637962-8166970a-97db-44b4-8035-37359151517f.png)
 
-#### Frequency of differnet contig sizes after running QUAST on the gnemome allignment produced using SPAdes
+#### Frequency of different contig sizes after running QUAST on the gnemome allignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168637964-932091fe-4b93-4b39-a1aa-684dd4d7a98d.png)
 
 #### GC content histogram for contigs produced using SPAdes genome allignment
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168637966-8f12e969-602e-423d-991b-f4de1acef980.png)
 
+#### GC content histogram for windows produced using SPAdes genome allignment
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168637967-a38b535a-1d6b-4ebc-8102-ae113146a07f.png)
+
+#### Cumulative contig length line graph produced after running QUAST on the gnemome allignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168637968-8863790a-28d0-463d-859d-adb3f4085cd4.png)
+
+#### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using SPAdes genome allignment
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168637970-c67ca16f-1090-4c96-ba91-56667be51e69.png)
+
+#### General Quality Assesment produced by QUAST based off of reads produced using SPAdes genome allignment
 ![Screen Shot 2022-05-16 at 3 00 25 PM](https://user-images.githubusercontent.com/103778088/168663474-dde09df1-5d9a-4b98-bc9d-42f52541b653.png)
 
 ### Velvet
+####
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168662158-4090ac6a-72ad-4c41-ae8c-8902b2f86b69.png)
+
+####
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168662159-9cb28561-db7d-437a-a408-61a02c7dfc60.png)
+
+####
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168662161-38f50146-f491-49e0-b501-ebf74e91edb4.png)
+
+####
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168662164-bd484a06-8733-4c65-9d38-7d9ddfc5a05b.png)
+
+####
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168662165-26514a8b-32f5-4732-b1c4-de88269dac6d.png)
+
+####
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168662167-b270e0db-0dfc-47ee-a52f-84fc90c0ec6f.png)
+
+####
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
 ## CONCLUSION
