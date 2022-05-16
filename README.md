@@ -137,17 +137,13 @@ quast.py -o quastoutput2 contigs.fa
 #### General Quality Assesment produced by QUAST based off of reads produced using Velvet genome allignment
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
-### Comparison of GC% found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
+### Comparison of GC% and genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
 
-| Reference 1  |  Reference 2  | SPAdes |  Velvet |
-| :---: | :---: | :---: | :---: |
-| 45.3%  | 46.9% | 45.1%  | 45.7%  |
+|      | Reference 1  |  Reference 2  | SPAdes |  Velvet |
+| :---: | :---: | :---: | :---: | :---: |
+| GC% | 45.3%  | 45.3%  | 46.9% | 45.1%  | 45.7%  |
+| genome size(Mb)| 182.16  | 252.54 |  1164.47 | 217.49  | 
 
-### Comparison of genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
-
-| Reference 1  |  Reference 2  | SPAdes |  Velvet |
-| :---: | :---: | :---: | :---: |
-| 182.16  | 252.54 |  1164.47 | 217.49  | 
 
 Reference 1:
 https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=266552
