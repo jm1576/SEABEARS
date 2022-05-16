@@ -142,7 +142,7 @@ quast.py -o quastoutput2 contigs.fa
 ### Comparison of GC content
 
 | Reference 1  |  Reference 2  | SPAdes |  Velvet |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | 45.3%  | 46.9% | 45.1%  | 45.7%  |
 
 ## CONCLUSION
