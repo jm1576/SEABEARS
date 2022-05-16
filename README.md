@@ -88,7 +88,7 @@ conda activate quast-env
 quast.py -o quastoutput contigs.fasta
 
 ## Running QUAST on Velvet output
-
+quast.py -o quastoutput2 contigs.fa
 ```
 
 ## RESULTS
