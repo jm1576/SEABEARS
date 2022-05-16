@@ -142,7 +142,7 @@ quast.py -o quastoutput2 contigs.fa
 |      | Reference 1  |  Reference 2  | SPAdes |  Velvet |
 | :---: | :---: | :---: | :---: | :---: |
 | GC% | 45.3%  | 45.3%  | 46.9% | 45.1%  | 45.7%  |
-| genome size(Mb)| 182.16  | 252.54 |  1164.47 | 217.49  | 
+| genome size(Mb) | 182.16  | 252.54 |  1164.47 | 217.49  | 
 
 
 Reference 1:
