@@ -120,7 +120,7 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 2 51 46 PM](https://user-images.githubusercontent.com/103778088/168854789-e21da0cb-34ad-4b32-93c8-2eee431685b4.png)
 
 #### Frequency of different contig sizes after running QUAST on the gnemome alignment produced using Velvet
-![Screen Shot 2022-05-16 at 2 51 20 PM](https://user-images.githubusercontent.com/103778088/168854400-177570e5-11d8-4a13-bec8-d2aead5599ca.png)
+![Screen Shot 2022-05-16 at 2 51 11 PM](https://user-images.githubusercontent.com/103778088/168855932-ea942f6e-d1f1-49ef-90f8-eedb5a7c79d7.png)
 
 #### GC content histogram for contigs produced using Velvet genome alignment
 ![Screen Shot 2022-05-16 at 2 51 41 PM](https://user-images.githubusercontent.com/103778088/168854396-316c2c2e-991c-41db-9e4e-4f57dc64ffcb.png)
