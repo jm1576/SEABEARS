@@ -126,7 +126,7 @@ quast.py -o quastoutput2 contigs.fa
 ![Screen Shot 2022-05-16 at 2 51 41 PM](https://user-images.githubusercontent.com/103778088/168854396-316c2c2e-991c-41db-9e4e-4f57dc64ffcb.png)
 
 #### GC content histogram for windows produced using Velvet genome alignment
-![Screen Shot 2022-05-16 at 2 51 26 PM](https://user-images.githubusercontent.com/103778088/168854399-a54c6abb-ed36-4ab1-be03-2caac19fd120.png)
+![Screen Shot 2022-05-16 at 2 51 20 PM](https://user-images.githubusercontent.com/103778088/168855640-c1d73c3e-23ca-497f-9375-ab9ff055a1b0.png)
 
 #### Cumulative contig length line graph produced after running QUAST on the gnemome alignment produced using Velvet
 ![Screen Shot 2022-05-16 at 2 51 26 PM](https://user-images.githubusercontent.com/103778088/168854399-a54c6abb-ed36-4ab1-be03-2caac19fd120.png)
