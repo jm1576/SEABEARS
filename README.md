@@ -93,51 +93,51 @@ quast.py -o quastoutput2 contigs.fa
 
 ## RESULTS
 ### SPAdes
-#### Contigs coverage histogram produced after running QUAST on the gnemome allignment produced using SPAdes
+#### Contigs coverage histogram produced after running QUAST on the gnemome alignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168637962-8166970a-97db-44b4-8035-37359151517f.png)
 
-#### Frequency of different contig sizes after running QUAST on the gnemome allignment produced using SPAdes
+#### Frequency of different contig sizes after running QUAST on the gnemome alignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168637964-932091fe-4b93-4b39-a1aa-684dd4d7a98d.png)
 
-#### GC content histogram for contigs produced using SPAdes genome allignment
+#### GC content histogram for contigs produced using SPAdes genome alignment
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168637966-8f12e969-602e-423d-991b-f4de1acef980.png)
 
-#### GC content histogram for windows produced using SPAdes genome allignment
+#### GC content histogram for windows produced using SPAdes genome alignment
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168637967-a38b535a-1d6b-4ebc-8102-ae113146a07f.png)
 
-#### Cumulative contig length line graph produced after running QUAST on the gnemome allignment produced using SPAdes
+#### Cumulative contig length line graph produced after running QUAST on the gnemome alignment produced using SPAdes
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168637968-8863790a-28d0-463d-859d-adb3f4085cd4.png)
 
-#### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using SPAdes genome allignment
+#### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using SPAdes genome alignment
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168637970-c67ca16f-1090-4c96-ba91-56667be51e69.png)
 
-#### General Quality Assesment produced by QUAST based off of reads produced using SPAdes genome allignment
+#### General Quality Assesment produced by QUAST based off of reads produced using SPAdes genome alignment
 ![Screen Shot 2022-05-16 at 3 00 25 PM](https://user-images.githubusercontent.com/103778088/168663474-dde09df1-5d9a-4b98-bc9d-42f52541b653.png)
 
 ### Velvet
 
-#### Contigs coverage histogram produced after running QUAST on the gnemome allignment produced using Velvet
+#### Contigs coverage histogram produced after running QUAST on the gnemome alignment produced using Velvet
 ![Screen Shot 2022-05-16 at 12 15 05 PM](https://user-images.githubusercontent.com/103778088/168662167-b270e0db-0dfc-47ee-a52f-84fc90c0ec6f.png)
 
-#### Frequency of different contig sizes after running QUAST on the gnemome allignment produced using Velvet
+#### Frequency of different contig sizes after running QUAST on the gnemome alignment produced using Velvet
 ![Screen Shot 2022-05-16 at 12 15 30 PM](https://user-images.githubusercontent.com/103778088/168662165-26514a8b-32f5-4732-b1c4-de88269dac6d.png)
 
-#### GC content histogram for contigs produced using Velvet genome allignment
+#### GC content histogram for contigs produced using Velvet genome alignment
 ![Screen Shot 2022-05-16 at 12 15 37 PM](https://user-images.githubusercontent.com/103778088/168662164-bd484a06-8733-4c65-9d38-7d9ddfc5a05b.png)
 
-#### GC content histogram for windows produced using Velvet genome allignment
+#### GC content histogram for windows produced using Velvet genome alignment
 ![Screen Shot 2022-05-16 at 12 15 43 PM](https://user-images.githubusercontent.com/103778088/168662161-38f50146-f491-49e0-b501-ebf74e91edb4.png)
 
-#### Cumulative contig length line graph produced after running QUAST on the gnemome allignment produced using Velvet
+#### Cumulative contig length line graph produced after running QUAST on the gnemome alignment produced using Velvet
 ![Screen Shot 2022-05-16 at 12 15 53 PM](https://user-images.githubusercontent.com/103778088/168662159-9cb28561-db7d-437a-a408-61a02c7dfc60.png)
 
-#### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using Velvet genome allignment
+#### Coverage histogram comparing contig coverage depth to coverage length based off of reads produced using Velvet genome alignment
 ![Screen Shot 2022-05-16 at 12 16 00 PM](https://user-images.githubusercontent.com/103778088/168662158-4090ac6a-72ad-4c41-ae8c-8902b2f86b69.png)
 
-#### General Quality Assesment produced by QUAST based off of reads produced using Velvet genome allignment
+#### General Quality Assesment produced by QUAST based off of reads produced using Velvet genome alignment
 ![Screen Shot 2022-05-16 at 2 55 58 PM](https://user-images.githubusercontent.com/103778088/168663016-d0da52c2-33af-4cde-8016-2f496b722a82.png)
 
-#### Comparison of GC% and genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously alligned genomes from NCBI database as reference
+#### Comparison of GC% and genome length(Mb) found using QUAST on SPAdes and Velvet alignments as well as previously aligned genomes from NCBI database as reference
 
 |      | Reference 1  |  Reference 2  | SPAdes |  Velvet |
 | :---: | :---: | :---: | :---: | :---: |
@@ -151,5 +151,6 @@ Reference 2:
 https://www.ncbi.nlm.nih.gov/genome/768?genome_assembly_id=259056
 
 ## CONCLUSION
-Bioinformatics genome allignment technology has progressed significantly in the past several years however the usability of these assemblers varies and a high computing power is often required to successfully navigate an assembler. The files and downloads required to run these programs also vary which again influences user's ability to utilize the technology. Several of the outputs we found were extremely large, up to >40 GB which is entirely unreasonable for a program being run on one's own personal computer. The enormity of the outputs caused a large portion of the troubleshooting required for the completion of this project as well as the fact that in order to run the programs additional space was required for downloads. Inadvertently, this took away from the space available for the output files.
-Specifically, SPAdes was more user-friendly than Velvet. It took significantly less time to run, and was also able to run multiple threads at a time that Velvet could not. In contrast, the Velvet program has a more similar genome size compared to the two reference genomes, while also showing more base pairs in the report than SPAdes. This could reveal possible inconsistencies or in the SPAdes program, as it shows less bps yet a drastically larger genome size. Otherwise, the results produced from both programs were both extremely similar to one another, as show by the graphs yielded from each run. There is little to no variation in each of the graphs between both programs.  
+Bioinformatics genome alignment technology has progressed significantly in the past several years; however, the usability of these assemblers varies. Both programs required a lot of computing power, with a multitude of available threads necessary for smooth running. The files and downloads required to run these programs vary too, which again influences user's ability to utilize the technology. Several of the outputs we found were extremely large, up to >40 GB, which is entirely unreasonable for a program being run on a personal computer. The enormity of the outputs caused a large portion of the troubleshooting required for the completion of this project as well as the fact that in order to run the programs additional space was required for downloads. Inadvertently, this took away from the space available for the output files.
+
+Between the two programs, SPAdes was more user-friendly than Velvet. It took significantly less time to run, and was also able to run multiple threads at a time while Velvet could not. In contrast, the Velvet program has a more similar genome size compared to the two reference genomes, while also showing more base pairs in the report than SPAdes. This could reveal possible inconsistencies in the SPAdes program, as it shows less bps yet a drastically larger genome size. Otherwise, the results produced from both programs were both extremely similar to one another, as show by the graphs yielded from each run. There is little to no variation in each of the graphs between both programs.  
